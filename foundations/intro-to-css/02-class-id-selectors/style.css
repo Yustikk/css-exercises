@@ -1,0 +1,18 @@
+.class {
+    background-color: #e07781;
+    font-family: Verdana, DejaVu-Sans, sans-serif;
+}
+
+#second{
+    color: #9eb7de;
+    font-size: 36px;
+}
+.third{
+    font-size: 24px;
+}
+
+#fourth{
+    background-color: #152914;
+    font-size: 24px;
+    font-weight: bold;
+}

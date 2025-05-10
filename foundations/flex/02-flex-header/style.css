@@ -1,6 +1,17 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  
+  padding: 24px;
+  display: flex;
+  gap:12px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -9,11 +20,19 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+
+
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+
+
+  padding: 0px;
+
+  display: flex; /* because the li in it are the flex items*/
+  gap:10px;
 }
 
 a {
@@ -22,4 +41,8 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+
+
+  /*this cant be the flex item because the li would have to be the display:flex*/
 }
+
